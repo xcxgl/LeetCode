@@ -1,0 +1,14 @@
+Solution1
+运行时间排名24.35%
+
+
+Solution2
+更快的方法：使用HashTable，用查找代替遍历
+运行时间排名45.93%
+16 / 16 test cases passed.
+Status: Accepted
+Runtime: 8 ms
+
+
+Solution3
+对2的优化，在建立HashMap的同时就回看map，若已有答案则return

@@ -1,0 +1,31 @@
+Solution1
+
+982 / 982 test cases passed.
+Status: Accepted
+Runtime: 45 ms
+
+Runtime beats 11.86%
+
+使用滑动窗口[i,j], 对于新到的s中的一个字符，若在HashMap中存在，则窗口向后滑动，成为[i+1,j]
+若不存在，则加入HashMap中，成为[i,j+1]
+
+给出的答案中该方法用的是HashSet
+程序写到最后发现根本没必要用map
+
+
+
+Solution2
+用HashSet：
+982 / 982 test cases passed.
+Status: Accepted
+Runtime: 25 ms
+
+还可以进一步优化，使用HashMap。
+Map中存在某个字符c时，直接让i滑动到字符c的后面。
+
+
+Solution3
+实现以上思路：
+982 / 982 test cases passed.
+Status: Accepted
+Runtime: 17 ms

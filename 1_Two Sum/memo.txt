@@ -1,10 +1,10 @@
 Solution1
-运行时间排名24.35%
+运行时间beats 24.35%
 
 
 Solution2
 更快的方法：使用HashTable，用查找代替遍历
-运行时间排名45.93%
+运行时间beats 45.93%
 16 / 16 test cases passed.
 Status: Accepted
 Runtime: 8 ms

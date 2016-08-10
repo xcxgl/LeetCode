@@ -1,0 +1,12 @@
+Solution1
+
+88 / 88 test cases passed.
+Status: Accepted
+Runtime: 14 ms
+Runtime beats 78.62% of javasubmissions.
+
+思路：把s中每个字符作为中心，向左右两边延伸寻找以该字符为中心的最长回文串。
+要注意aba和abba这两种情况。
+
+第一次做的时候采用在string的每个字符中间插入#字符的方法，来将以上两种回文串合并成一种，
+但遇到"aaaaaa.....aa"的测试用例时运行时间过长。

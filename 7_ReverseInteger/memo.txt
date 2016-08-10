@@ -1,0 +1,15 @@
+Solution1
+
+
+1032 / 1032 test cases passed. 
+Status: Accepted 
+
+Runtime: 2 ms 
+
+Runtime beats 48.48% of javasubmissions.
+
+
+思路：
+1、若是负数，则先把负数处理成其绝对值
+2、溢出的情况，溢出后得到的数字随机，判断是否与正常结果一样即可
+3、数字末尾有零的情况，因为方法中用的是数字而不是字符串，因此结果的非零位之前不会有零，这种情况不必在程序中特殊处理。

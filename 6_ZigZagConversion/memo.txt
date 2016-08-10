@@ -1,0 +1,9 @@
+Solution1
+
+1158 / 1158 test cases passed.
+Status: Accepted
+Runtime: 38 ms
+Runtime beats 18.15% of javasubmissions.
+ 
+ 
+思路：每一条竖线和斜向上的斜线为一组，用n个String来保存字符。

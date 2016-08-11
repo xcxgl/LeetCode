@@ -1,0 +1,14 @@
+Solution1
+思路：
+1、负数 -> false
+2、一位数 -> true
+3、每次计算收尾两个数字并比较，循环此操作
+
+
+11506 / 11506 test cases passed. 
+ Status: Accepted 
+
+Runtime: 15 ms 
+Your runtime beats 23.36% of javasubmissions.
+
+比较慢。。

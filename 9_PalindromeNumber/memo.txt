@@ -4,7 +4,6 @@ Solution1
 2、一位数 -> true
 3、每次计算收尾两个数字并比较，循环此操作
 
-
 11506 / 11506 test cases passed. 
  Status: Accepted 
 

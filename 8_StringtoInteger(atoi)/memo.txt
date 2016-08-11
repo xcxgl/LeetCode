@@ -1,0 +1,15 @@
+Solution1
+
+思路：
+1、去掉字符串前面的空格
+2、去掉正负号，并保存正负号
+3、result = result * 10 + str.charAt(i);//注意判断result是否溢出。
+此处我采用的方法是提前判断result的大小，预估是否会溢出
+4、溢出/读到非数字的字符/字符串结束 停止
+
+
+1047 / 1047 test cases passed. 
+ Status: Accepted 
+
+Runtime: 3 ms 
+Runtime beats 81.44% of javasubmissions.

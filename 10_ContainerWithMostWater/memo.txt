@@ -1,0 +1,13 @@
+Solution
+
+思路：
+1、最开始用的暴力方法，运行超时
+2、用了讨论区看到的一个方法：i和j分别从两端向中间查找，若height[i]<height[j],则记录下此面积后i++，否则j--。因为若不等式成立，说明任何与i有关的区间所构成的面积都不会大于(j-i) * (height[j] - height[i])，则不必再讨论i，使i++。
+
+
+45 / 45 test cases passed. 
+ Status: Accepted 
+
+Runtime: 5 ms 
+
+Your runtime beats 71.04% of javasubmissions.

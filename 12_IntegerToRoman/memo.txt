@@ -1,0 +1,30 @@
+Solution1
+
+思路：
+最笨的方法，对阿拉伯数字的每一位上数字进行判断，根据数字大小选择相应的规则。
+
+
+3999 / 3999 test cases passed. 
+ Status: Accepted 
+
+Runtime: 25 ms 
+Your runtime beats 3.90% of javasubmissions.
+
+果然是笨方法。。太慢了
+
+
+Solution2
+
+看了讨论区大家的方法，原来都是差不多的思路：拼凑。
+把所有可能的组合写出来，再根据数字选择拼凑。
+Solution1中用Map是小题大做了，用两个数组就可以满足要求。
+总之Solution1中的程序太复杂了。
+
+
+3999 / 3999 test cases passed. 
+ Status: Accepted 
+
+Runtime: 10 ms 
+Your runtime beats 38.91% of javasubmissions.
+
+比Solution1快很多

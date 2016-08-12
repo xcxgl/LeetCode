@@ -1,0 +1,12 @@
+Solution1
+
+思路：
+根据罗马数字左减右加的原则，先计算出每个位上面字母代表的数字，再从右往左计算数字和。若右边的数字大于左边的数字，说明左边的数字应该被减去，否则加上。
+
+
+3999 / 3999 test cases passed. 
+ Status: Accepted 
+
+Runtime: 6 ms 
+
+Your runtime beats 95.97% of javasubmissions.

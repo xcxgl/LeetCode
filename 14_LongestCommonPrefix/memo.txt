@@ -1,0 +1,12 @@
+Solution1
+
+思路：
+用长为2的窗口从前向后滑动，每次比较两个字符串，得到最长公共前缀长度max，在向后的滑动过程中更新max。并且后面两两比较的字符个数至多为max就可以。
+
+
+117 / 117 test cases passed. 
+ Status: Accepted 
+
+Runtime: 3 ms 
+
+Your runtime beats 40.90% of javasubmissions.

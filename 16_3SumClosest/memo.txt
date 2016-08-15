@@ -1,0 +1,13 @@
+Solution1
+
+思路：
+1、升序排序
+2、最外层从左至右遍历
+3、其余两个数字分别从两端向中间查找：若和大于target，则向左移动右边的指针，若和小于target，则向右移动左边的指针，直至到达边界或与target最接近
+
+
+120 / 120 test cases passed. 
+ Status: Accepted 
+
+Runtime: 8 ms 
+Your runtime beats 94.90% of javasubmissions.

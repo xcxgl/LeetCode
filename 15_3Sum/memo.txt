@@ -1,0 +1,15 @@
+Solution1
+
+思路：
+1、把sums升序排序，i和j作为两个指针分别从最左边和最右边向中间查找，i为外层循环
+2、nums[i]作为三元组中最小的数字，只需遍历小于等于0的数字
+3、nums[j]作为三元组中最大的数字，只需遍历大于等于0的数字
+4、i++与j--时注意忽略掉重复的数字，避免不必要的循环
+
+
+311 / 311 test cases passed. 
+ Status: Accepted 
+
+Runtime: 9 ms 
+
+Your runtime beats 33.46% of javasubmissions.

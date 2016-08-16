@@ -1,0 +1,14 @@
+Solution1
+
+思路：
+1、把数字与字母对应关系存入map中
+2、递归生成字母字符串
+
+
+25 / 25 test cases passed. 
+ Status: Accepted 
+
+Runtime: 2 ms 
+
+
+Your runtime beats 12.81% of javasubmissions.

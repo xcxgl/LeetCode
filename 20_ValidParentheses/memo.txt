@@ -1,0 +1,16 @@
+Solution1
+
+思路：
+运用栈的思想
+1、左括号直接入栈
+2、遇到右括号则判断是否与最后一个左括号匹配，是则左括号出栈，否则false
+3、最后判断栈是否为空，空则true，否则false
+
+
+65 / 65 test cases passed. 
+ Status: Accepted 
+
+Runtime: 1 ms 
+
+
+Your runtime beats 52.87% of javasubmissions.

@@ -22,11 +22,7 @@ public class Solution {
         	ln = ln.next;
         	count--;
         }
-        if(ln.next != null && ln.next.next != null){
-        	ln.next = ln.next.next;
-        }
-        else 
-        	ln.next = null;
+        ln.next = ln.next.next;
         return head.next;
     }
 }

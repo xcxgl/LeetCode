@@ -1,0 +1,14 @@
+Solution1
+
+思路：
+1、增加头结点
+2、计数总结点数
+3、删去结点
+
+
+207 / 207 test cases passed. 
+ Status: Accepted 
+
+Runtime: 1 ms 
+
+Your runtime beats 5.49% of javasubmissions.

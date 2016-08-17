@@ -1,0 +1,17 @@
+Solution1
+
+思路：
+和3SumClosest类似,用两个指针（low & high）的方法
+1、sort
+2、num[i]和num[j]为最外层两个循环，表示前两个数字
+3、用num[low]和num[high]表示后两个数字，通过移动来找符合条件的位置
+
+
+
+282 / 282 test cases passed. 
+ Status: Accepted 
+
+Runtime: 14 ms 
+
+
+Your runtime beats 83.11% of javasubmissions.

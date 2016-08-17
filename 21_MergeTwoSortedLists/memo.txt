@@ -1,0 +1,14 @@
+Solution1
+
+思路：
+新建一个单链表，逐个放入l1和l2中的结点
+
+
+
+208 / 208 test cases passed. 
+ Status: Accepted 
+
+Runtime: 1 ms 
+
+
+Your runtime beats 10.81% of javasubmissions.

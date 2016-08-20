@@ -1,0 +1,12 @@
+Solution1
+
+思路：
+递归
+1、合法的串在任意一位之前左括号数一定大于等于右括号数
+2、合法的串左右括号总数都是n
+
+8 / 8 test cases passed.
+Status: Accepted
+Runtime: 2 ms
+
+Your runtime beats 31.04% of javasubmissions.

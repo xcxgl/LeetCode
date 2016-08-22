@@ -1,0 +1,11 @@
+Solution1
+
+思路：
+用多个指针指向交换位置时用到的各个结点。
+
+
+55 / 55 test cases passed.
+Status: Accepted
+Runtime: 0 ms
+
+Your runtime beats 6.30% of javasubmissions.

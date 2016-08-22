@@ -1,0 +1,15 @@
+Solution1
+
+思路：
+单趟遍历，边计算长度边修改数组的值，直接在原数组中修改调整之后的值。
+
+多一个if的条件使运行时间大大降低：
+if(nums.length == 0)
+    return 0;
+
+	
+161 / 161 test cases passed.
+Status: Accepted
+Runtime: 1 ms
+
+Your runtime beats 54.77% of javasubmissions.

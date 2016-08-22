@@ -1,0 +1,11 @@
+Solution1
+
+思路：
+数组收尾两个指针start和end，当遇到要删去的数时则从end处找数字填补，直到end=start
+
+
+113 / 113 test cases passed.
+Status: Accepted
+Runtime: 0 ms
+
+Your runtime beats 62.57% of javasubmissions.

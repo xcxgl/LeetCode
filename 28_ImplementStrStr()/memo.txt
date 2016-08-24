@@ -1,0 +1,19 @@
+Solution1
+
+思路：
+取巧的方法，直接用subString截取haystack中的子串，用equals()方法比较字符串
+
+
+72 / 72 test cases passed. 
+ Status: Accepted 
+
+Runtime: 2 ms 
+
+Your runtime beats 66.84% of javasubmissions.
+
+
+Solution2
+
+思路：
+遍历haystack的 0 至 haystack.length() - needle.length() + 1 位，
+再按字符char比较该位上的子串和needle

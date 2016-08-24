@@ -16,4 +16,12 @@ Solution2
 
 思路：
 遍历haystack的 0 至 haystack.length() - needle.length() + 1 位，
-再按字符char比较该位上的子串和needle
+再按字符char比较该位上的子串和needle.
+
+
+72 / 72 test cases passed. 
+ Status: Accepted 
+
+Runtime: 3 ms 
+
+Your runtime beats 64.79% of javasubmissions.

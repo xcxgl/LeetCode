@@ -1,0 +1,13 @@
+Solution1
+
+思路：
+使用两次Binary Search，第一次获取range[0],第二次获取range[1]
+
+
+
+81 / 81 test cases passed. 
+ Status: Accepted 
+
+Runtime: 8 ms 
+
+Your runtime beats 17.96% of java submissions.

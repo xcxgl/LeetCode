@@ -1,0 +1,13 @@
+Solution1
+
+思路：
+从头开始遍历，遇到nums[i] >= target, return i
+遍历结束也没有遇到这样的num，则insert到末尾，即 return nums.length
+（换了binary search后运行时间一样）
+
+
+62 / 62 test cases passed. 
+ Status: Accepted 
+
+Runtime: 6 ms 
+Your runtime beats 14.43% of java submissions.

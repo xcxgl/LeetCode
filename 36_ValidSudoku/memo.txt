@@ -1,0 +1,12 @@
+Solution1
+
+思路：
+行、列、九宫格依次判断
+用char[]保存合法的字符，用int[]保存相对应char的计数
+
+
+
+501 / 501 test cases passed. 
+ Status: Accepted 
+
+Runtime: 37 ms 

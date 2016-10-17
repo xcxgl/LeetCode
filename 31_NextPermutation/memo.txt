@@ -1,0 +1,15 @@
+Solution1
+
+思路：
+两种情况：
+1、存在一个更大的数列。对第i位，从（i+1）至(length-1)中寻找比nums[i]大，且两数之间差值最小的数字nums[j]，交换两个数字的位置，(i+1)至(length-1)的数字要从小到大排序
+2、不存在更大的数列，则从两头至之间依次对调位置
+
+
+
+265 / 265 test cases passed. 
+ Status: Accepted 
+
+Runtime: 20 ms 
+
+Your runtime beats 27.10% of java submissions.

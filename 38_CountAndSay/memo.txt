@@ -1,0 +1,28 @@
+Solution1
+
+思路：
+依次生成从1到n的sequence
+生成第i+1个sequence时，从左到右读取第i个seq，遇到重复数字则count，遇到不同的数字则更新temp，count和比较的数字
+注意最后一位的处理
+
+用StringBuilder temp代替String temp，速度快了很多。
+
+
+
+String：
+18 / 18 test cases passed. 
+ Status: Accepted 
+
+Runtime: 31 ms 
+Your runtime beats 17.69% of java submissions.
+
+
+
+StringBuilder：
+18 / 18 test cases passed. 
+ Status: Accepted 
+
+Runtime: 5 ms 
+Your runtime beats 63.18% of java submissions.
+
+

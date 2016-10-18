@@ -1,10 +1,10 @@
 Solution1
 
-Ë¼Â·£º
-µİ¹é
+æ€è·¯ï¼š
+
 
 168 / 168 test cases passed.
 Status: Accepted
-Runtime: 42 ms
+Runtime: 28 ms
 
-Your runtime beats 4.81% of java submissions.
+Your runtime beats 14.86% of java submissions.

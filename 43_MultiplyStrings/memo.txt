@@ -1,0 +1,15 @@
+Solution1
+
+
+思路：
+
+用二维数组（list）存中间计算过程
+
+
+
+311 / 311 test cases passed. 
+ Status: Accepted 
+
+Runtime: 80 ms 
+
+Your runtime beats 6.29% of java submissions.

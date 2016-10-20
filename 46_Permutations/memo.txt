@@ -1,0 +1,15 @@
+Solution1
+
+思路：
+回溯
+用boolean flags[]数组记录被用过的数字
+
+
+
+25 / 25 test cases passed. 
+ Status: Accepted 
+
+Runtime: 6 ms 
+
+Your runtime beats 43.34% of java submissions.
+

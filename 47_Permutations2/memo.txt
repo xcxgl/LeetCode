@@ -1,0 +1,15 @@
+Solution1
+
+思路：
+避免重复：
+1、排序
+2、遇到相同的数字段，避免让相同的数字出现在队首
+
+
+30 / 30 test cases passed. 
+ Status: Accepted 
+
+Runtime: 11 ms 
+
+
+Your runtime beats 28.59% of java submissions.

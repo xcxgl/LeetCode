@@ -19,7 +19,6 @@ public class Solution {
     			continue;
     		
     		tempList.add(nums[i]);
-    		int size = tempList.size();
     		flags[i] = 1;
     		backTrack(list, nums, flags, tempList);
     		tempList.remove(tempList.size() - 1);

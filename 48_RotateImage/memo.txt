@@ -1,0 +1,29 @@
+Solution1
+
+思路：
+新建另一个数组
+（违背不新增空间的要求）
+
+20 / 20 test cases passed. 
+ Status: Accepted 
+
+Runtime: 3 ms 
+
+Your runtime beats 9.52% of java submissions.
+
+
+
+
+Solution2
+
+思路：
+先转置，再水平调换即可
+满足 in space
+
+
+20 / 20 test cases passed. 
+ Status: Accepted 
+
+Runtime: 3 ms 
+Your runtime beats 9.52% of java submissions.
+

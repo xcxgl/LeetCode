@@ -1,0 +1,15 @@
+Solution 1
+
+思路：
+给每个String排序，这样Anagrams组内的string 都相等
+用map<String, List<>>组织Anagrams group，map的key是排序后的String
+最后将map的value转化成list
+
+
+100 / 100 test cases passed. 
+ Status: Accepted 
+
+Runtime: 30 ms 
+
+
+Your runtime beats 41.40% of java submissions.

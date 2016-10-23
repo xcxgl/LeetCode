@@ -1,0 +1,24 @@
+Solution1
+
+思路：
+Pow(x, n) = Pow(x, n/2) * Pow(x, n/2)
+(具体细节要分析，如n为奇数n=0，x=0， n < 0等)
+
+用
+{ double res = Pow(x, n/2);
+return res * res;
+}
+
+代替
+{
+	return Pow(x, n/2)*Pow(x, n/2);
+}
+可以避免栈溢出
+
+
+300 / 300 test cases passed. 
+ Status: Accepted 
+
+Runtime: 21 ms 
+
+Your runtime beats 55.71% of java submissions.

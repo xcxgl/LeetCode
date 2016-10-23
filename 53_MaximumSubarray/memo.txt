@@ -1,0 +1,16 @@
+Solution1
+
+思路：
+O(n)的算法：
+sum = nums[i] > sum + nums[i] ? nums[i] : sum + nums[i];
+i增加的同时更新max
+
+
+
+201 / 201 test cases passed. 
+ Status: Accepted 
+
+Runtime: 14 ms 
+
+
+Your runtime beats 94.38% of java submissions.

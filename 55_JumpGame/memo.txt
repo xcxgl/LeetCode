@@ -1,0 +1,15 @@
+Solution1
+
+思路：
+从头开始遍历数组，判断每一位是否是可达的
+如果中间某一位是不可达的，那么后面的也是不可达的
+要想最后一位是可达的，路径上的每一位都是可达的
+
+
+
+72 / 72 test cases passed. 
+ Status: Accepted 
+
+Runtime: 9 ms 
+
+Your runtime beats 27.16% of java submissions.

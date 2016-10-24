@@ -1,0 +1,14 @@
+Solution1
+
+思路：
+把每一圈的路径分成向右、向下、向左、向上四个部分
+注意控制边界条件
+
+
+22 / 22 test cases passed. 
+ Status: Accepted 
+
+Runtime: 3 ms 
+
+
+Your runtime beats 18.28% of java submissions.

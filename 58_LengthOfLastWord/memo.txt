@@ -1,0 +1,15 @@
+Solution1
+
+思路：
+
+从string的后面开始，找第一个字母，并往前走直到遇到非字母停止
+
+
+
+59 / 59 test cases passed. 
+ Status: Accepted 
+
+Runtime: 5 ms 
+
+
+Your runtime beats 70.91% of java submissions.
